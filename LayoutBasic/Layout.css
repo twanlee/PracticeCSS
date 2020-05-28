@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Tahoma;
+    font-size: 15px;
+    margin: 0 auto;
+}
+#s-body{
+    float: left;
+}
+#header, #head-link, #s-body, #footer{
+    clear: both;
+    width: 100%;
+    margin-bottom: 5px;
+}
+@media screen and (min-width: 1001px){
+    body{
+        background-color: red;
+    }
+    #header{
+        height: 40px;
+        background-color: #F5F5F5;
+        border: 1px solid #CDCDCD;
+    }
+}
+@media screen and (max-width: 1000px){
+    body{
+        background-color: blue;
+    }
+    #header{
+        height: 40px;
+        background-color: lightgoldenrodyellow;
+        border: 1px solid #CDCDCD;
+    }
+    
+}
+@media all and (min-width: 1001px) {
+    body{
+        width: 980px;
+    }
+    #header{
+        height: 100px;
+        background-color: brown;
+        border: 1px solid yellow;
+    }
+}
